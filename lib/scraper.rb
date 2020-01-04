@@ -14,6 +14,8 @@ class Scraper
   end
   
   def get_courses
+    title = doc.css(".post").first.css("h2").text
+    
     
     
   end
